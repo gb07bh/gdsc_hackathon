@@ -210,7 +210,7 @@ try {
 	// function to toggle between light and dark theme
 	function toggleTheme() {
 		if (localStorage.getItem('coze_theme') === 'theme-dark') {
-			setTheme('theme-light');
+			setTheme('theme-dark');
 		} else {
 			setTheme('theme-dark');
 		}
@@ -222,7 +222,7 @@ try {
 			setTheme('theme-dark');
 			document.getElementById('slider').checked = false;
 		} else {
-			setTheme('theme-light');
+			setTheme('theme-dark');
 		document.getElementById('slider').checked = true;
 		}
 	})();
