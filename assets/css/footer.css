@@ -33,7 +33,7 @@ Footer Area CSS
 
 .single-footer-widget p {
   margin-bottom: 0;
-  color: #CDC4D9;
+  color: #cdc4d9;
 }
 
 .single-footer-widget .widget-social {
@@ -53,7 +53,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .widget-social li a i {
-  color: #CDC4D9;
+  color: #cdc4d9;
   display: inline-block;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -63,13 +63,13 @@ Footer Area CSS
   text-align: center;
   border-radius: 50px;
   background-color: var(--black-color);
-  border: 1px solid #A66BFF;
+  border: 1px solid #a66bff;
   font-size: 15px;
 }
 
 .single-footer-widget .widget-social li a i:hover {
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
   color: var(--black-color);
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
@@ -97,7 +97,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .quick-links li a {
-  color: #CDC4D9;
+  color: #cdc4d9;
 }
 
 .single-footer-widget .quick-links li a:hover {
@@ -112,50 +112,60 @@ Footer Area CSS
 .single-footer-widget .newsletter-form .input-newsletter {
   display: block;
   width: 100%;
-  background-color: #2E2141;
-  border: 1px solid #2E2141;
+  background-color: #2e2141;
+  border: 1px solid #2e2141;
   height: 65px;
   padding: 20px;
   border-radius: 15px;
   outline: 0;
-  color: #CDC4D9;
+  color: #cdc4d9;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
-.single-footer-widget .newsletter-form .input-newsletter::-webkit-input-placeholder {
-  color: #CDC4D9;
+.single-footer-widget
+  .newsletter-form
+  .input-newsletter::-webkit-input-placeholder {
+  color: #cdc4d9;
 }
 
 .single-footer-widget .newsletter-form .input-newsletter:-ms-input-placeholder {
-  color: #CDC4D9;
+  color: #cdc4d9;
 }
 
-.single-footer-widget .newsletter-form .input-newsletter::-ms-input-placeholder {
-  color: #CDC4D9;
+.single-footer-widget
+  .newsletter-form
+  .input-newsletter::-ms-input-placeholder {
+  color: #cdc4d9;
 }
 
 .single-footer-widget .newsletter-form .input-newsletter::placeholder {
-  color: #CDC4D9;
+  color: #cdc4d9;
 }
 
 .single-footer-widget .newsletter-form .input-newsletter:focus {
   border: 1px solid var(--main-color);
 }
 
-.single-footer-widget .newsletter-form .input-newsletter:focus::-webkit-input-placeholder {
+.single-footer-widget
+  .newsletter-form
+  .input-newsletter:focus::-webkit-input-placeholder {
   color: transparent;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
-.single-footer-widget .newsletter-form .input-newsletter:focus:-ms-input-placeholder {
+.single-footer-widget
+  .newsletter-form
+  .input-newsletter:focus:-ms-input-placeholder {
   color: transparent;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
-.single-footer-widget .newsletter-form .input-newsletter:focus::-ms-input-placeholder {
+.single-footer-widget
+  .newsletter-form
+  .input-newsletter:focus::-ms-input-placeholder {
   color: transparent;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -191,17 +201,17 @@ Footer Area CSS
   text-align: center;
   padding-top: 35px;
   padding-bottom: 35px;
-  border-top: 1px solid #2E2141;
+  border-top: 1px solid #2e2141;
 }
 
 .copyright-area .copyright-area-content p {
-  color: #CDC4D9;
+  color: #cdc4d9;
 }
 
 .copyright-area .copyright-area-content p a {
   display: inline-block;
   font-weight: bold;
-  color: #A66BFF;
+  color: #a66bff;
 }
 
 .copyright-area .copyright-area-content p a:hover {
@@ -217,13 +227,13 @@ Footer Area CSS
 
 .footer-shape-1 img {
   -webkit-animation-name: rotateme;
-          animation-name: rotateme;
+  animation-name: rotateme;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .footer-shape-2 {
@@ -232,9 +242,9 @@ Footer Area CSS
   left: 5%;
   z-index: -1;
   -webkit-transform: translateY(-15%) translateX(-5%);
-          transform: translateY(-15%) translateX(-5%);
+  transform: translateY(-15%) translateX(-5%);
   -webkit-animation: moveleftbounce 1s linear infinite;
-          animation: moveleftbounce 1s linear infinite;
+  animation: moveleftbounce 1s linear infinite;
 }
 
 .footer-shape-3 {
@@ -243,9 +253,9 @@ Footer Area CSS
   left: 50%;
   z-index: -1;
   -webkit-transform: translateY(-15%) translateX(-50%);
-          transform: translateY(-15%) translateX(-50%);
+  transform: translateY(-15%) translateX(-50%);
   -webkit-animation: animationFramesOne 10s infinite linear;
-          animation: animationFramesOne 10s infinite linear;
+  animation: animationFramesOne 10s infinite linear;
   opacity: 25%;
 }
 
@@ -296,4 +306,3 @@ Footer Area CSS
     font-size: 20px;
   }
 }
-/*# sourceMappingURL=footer.css.map */
