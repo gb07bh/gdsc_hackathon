@@ -203,13 +203,13 @@ jQuery(function ($) {
 try {
 	// function to set a given theme/color-scheme
 	function setTheme(themeName) {
-		localStorage.setItem('coze_theme', themeName);
+		localStorage.setItem('nirman', themeName);
 		document.documentElement.className = themeName;
 	}
 
 	// function to toggle between light and dark theme
 	function toggleTheme() {
-		if (localStorage.getItem('coze_theme') === 'theme-dark') {
+		if (localStorage.getItem('nirman') === 'theme-dark') {
 			setTheme('theme-dark');
 		} else {
 			setTheme('theme-dark');
@@ -218,7 +218,7 @@ try {
 
 	// Immediately invoked function to set the theme on initial load
 	(function () {
-		if (localStorage.getItem('coze_theme') === 'theme-dark') {
+		if (localStorage.getItem('nirman') === 'theme-dark') {
 			setTheme('theme-dark');
 			document.getElementById('slider').checked = false;
 		} else {
@@ -227,3 +227,19 @@ try {
 		}
 	})();
 } catch (err) {}
+
+$(".register").mouseenter(function(){
+	if ($(this).parent('div').children('div.image').length) {
+		$(this).parent('div').children('div.image').show();
+	} else {
+		var image_name=$(this).data('image');
+		var imageTag='<div class="image" style="position:absolute; top: -16.5rem;left: -14rem; transform:scale(0.2)">'+'<img src="'+image_name+'" alt="image" height="100" />'+'</div>';
+		$(this).parent('div').append(imageTag);
+	}
+});
+
+$(".register").mouseleave(function(){
+	$(this).parent('div').children('div.image').hide();
+});
+
+
